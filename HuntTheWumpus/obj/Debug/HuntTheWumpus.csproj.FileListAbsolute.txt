@@ -1,0 +1,10 @@
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.exe.config
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.exe
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.pdb
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.csprojAssemblyReference.cache
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.Form1.resources
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.Properties.Resources.resources
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.csproj.GenerateResource.cache
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.csproj.CoreCompileInputs.cache
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.exe
+C:\Users\s-thawthorn\source\repos\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.pdb
