@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace WumpusTest
 {
     class Trivia
@@ -12,27 +13,46 @@ namespace WumpusTest
 
         public int BottomlessPit()
         {
-            int roomNum = 0;
-            return roomNum;
-            /*
-             * When initiated from Game Control, The player will be asked 3 questions
-             * each question has four possible responses
-             * the player wins if they answer 2/3 questions
-             * return roomNumber if won
-             * return negative number (Game Over) if lost
-             */
+            Random gen = new Random(); // I still do not know the C++ version of this
+            int wins;
+            for(int i = 0; i < 3; i++){
+                int question = AskQuestion();
+                if(question == 1){
+                    wins++;
+                }else{
+                    losses++;
+                }
+            }
+            if(wins < losses){
+                return -1;
+            }else if(wins > losses){
+                int roomNumber = gen.nextInt();
+                return roomNumber
+            }
         }
 
-        public int WumpusRoom()
-        {
-            int moveWumpusToRoom = 0;
-            return moveWumpusToRoom;
-            /*
-             * When initiated, The wumpus is in the same room
-             * the player is asked 5 questions, each with 4 answers
-             * win: majority of questions won; WUmpus moves locations
-             * loss: majority lost, game over (return negative number)
-             */
+        public int WumpusRoom(){
+            Random gen = new Random(); // I still do not know the C++ version of this
+            int wins;
+            for(int i = 0; i < 5; i++){
+                int question = AskQuestion();
+                if(question == 1){
+                    wins++;
+                }else{
+                    losses++;
+                }
+            }
+            if(wins > losses){
+                return -1;
+            }else if(wins < losses){
+                int roomNumber = gen.nextInt();
+                return roomNumber
+            }
+        }
+        
+        public int AskQuestion(){
+            answer = 0;
+            return answer;
         }
     }
 }
